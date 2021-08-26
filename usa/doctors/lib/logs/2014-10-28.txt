@@ -1,0 +1,10 @@
+Time : 11:29:58
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 10:51:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 07:27:30
+SQLSTATE[28000] [1045] Access denied for user 'sheen786_imran'@'localhost' (using password: YES)

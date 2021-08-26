@@ -1,0 +1,226 @@
+/* General styles for all menus */
+/*.cbp-spmenu {background-image: url(../images/1.png)!important;}*/
+.cbp-spmenu h2 {
+	/*font-family: 'Cookie', cursive;
+	font-family: 'Montez', cursive;
+	font-family: 'Grand Hotel', cursive;
+	font-family: 'Clicker Script', cursive;*/
+	font-family: 'Sacramento', cursive;
+	font-size: 46px;
+	font-weight: normal;
+	letter-spacing:2px;
+	line-height:38px;
+	text-decoration: none;
+	margin: 0px;
+	padding:60px 20px 60px 20px;
+	color:#ffffff;
+	text-align:center;
+}
+.cbp-spmenu h2 span{font-size:40px;}
+.cbp-spmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.cbp-spmenu ul li:first-child a {
+box-shadow: inset 0 -1px rgba(0,0,0,0.1), inset 0 1px rgba(0,0,0,0.1);
+
+}
+#cbp-spmenu-s5.cbp-spmenu ul li:first-child a {
+padding: 50px 20px 12px 20px;
+box-shadow: inset 0 -1px rgba(0,0,0,0.1), inset 0 1px rgba(0,0,0,0.1);
+border: thin dashed rgba(0,0,0,0.2);
+}
+.cbp-spmenu ul li a {
+display: block;
+padding: 15px 20px;
+outline: none;
+box-shadow: inset 0 -1px rgba(0,0,0,0.1);
+color: #ffffff;
+text-shadow: 0 0 1px rgba(255,255,255,0.1);
+text-decoration: none;
+letter-spacing: 1px;
+font-weight: 400;
+-webkit-transition: background 0.3s, box-shadow 0.3s;
+transition: background 0.3s, box-shadow 0.3s;
+font-size: 15px;
+}
+.cbp-spmenu ul li a:hover {
+	background: rgba(0,0,0,0.2);
+	box-shadow: inset 0 -1px rgba(0,0,0,0);
+	color: #fff;
+}
+
+.cbp-spmenu::after {
+	background: rgba(0,0,0,1);
+	content: '';
+	opacity: 1;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.cbp-spmenu-open .cbp-spmenu::after {
+	width: 0;
+	height: 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+	transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	width: 285px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	
+	
+}
+.cbp-spmenu-vertical1 {
+	width:290px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.cbp-spmenu-vertical a {
+/*	border-bottom: 1px solid #143355;
+	padding: 1em;*/
+}
+
+.cbp-spmenu-horizontal {
+	width: 100%;
+	height: 150px;
+	left: 0;
+	z-index: 1000;
+	overflow: hidden;
+}
+
+.cbp-spmenu-horizontal h3 {
+	height: 100%;
+	width: 20%;
+	float: left;
+}
+
+.cbp-spmenu-horizontal a {
+	float: left;
+	width: 20%;
+	padding: 0.8em;
+	border-left: 1px solid #143355;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+	left: -340px;
+}
+
+.cbp-spmenu-right {
+	right: -340px;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+	left: 0px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+	right: 0px;
+}
+
+/* Horizontal menu that slides from the top or bottom */
+
+.cbp-spmenu-top {
+	top: -150px;
+}
+
+.cbp-spmenu-bottom {
+	bottom: -150px;
+}
+
+.cbp-spmenu-top.cbp-spmenu-open {
+	top: 0px;
+}
+
+.cbp-spmenu-bottom.cbp-spmenu-open {
+	bottom: 0px;
+}
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+	right:0;
+	top:0;
+}
+
+.cbp-spmenu-push-toright {
+	left: 240px;
+}
+
+.cbp-spmenu-push-toleft {
+	left: -240px;
+	
+}
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	-o-transition: all 0.8s ease;
+	transition: all 0.8s ease;
+}
+
+/* Example media queries */
+
+@media screen and (max-width: 55.1875em){
+
+	.cbp-spmenu-horizontal {
+		font-size: 75%;
+		height: 110px;
+	}
+
+	.cbp-spmenu-top {
+		top: -110px;
+	}
+
+	.cbp-spmenu-bottom {
+		bottom: -110px;
+	}
+
+
+}
+
+@media screen and (max-height: 26.375em){
+
+	.cbp-spmenu-vertical {
+		font-size: 20%;
+		width: 190px;
+	}
+	.cbp-spmenu-vertical1 {
+		font-size: 20%;
+		width: 190px;
+	}
+
+	.cbp-spmenu-left,
+	.cbp-spmenu-push-toleft {
+		left: -190px;
+	}
+
+	.cbp-spmenu-right {
+		/*right: -240px;*/
+	}
+
+	.cbp-spmenu-push-toright {
+		left: 190px;
+	}
+}

@@ -1,0 +1,11 @@
+Time : 07:45:23
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uid' in 'where clause'
+Raw SQL : SELECT * FROM  `custom_background` INNER JOIN  `user_background` ON custom_background.id = user_background.background_id WHERE uid = '3'
+
+Time : 07:45:00
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uid' in 'where clause'
+Raw SQL : SELECT * FROM  `custom_background` INNER JOIN  `user_background` ON custom_background.id = user_background.background_id WHERE uid = '3'
+
+Time : 07:44:50
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uid' in 'where clause'
+Raw SQL : SELECT * FROM  `custom_background` INNER JOIN  `user_background` ON custom_background.id = user_background.background_id WHERE uid = '3'

@@ -1,0 +1,19 @@
+Time : 17:05:06
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND fanGateflg=1' at line 1
+Raw SQL : SELECT * FROM fan_gate WHERE settingID = AND fanGateflg=1
+
+Time : 17:04:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND fanGateflg=1' at line 1
+Raw SQL : SELECT * FROM fan_gate WHERE settingID = AND fanGateflg=1
+
+Time : 17:03:14
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND fanGateflg=1' at line 1
+Raw SQL : SELECT * FROM fan_gate WHERE settingID = AND fanGateflg=1
+
+Time : 17:03:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND fanGateflg=1' at line 1
+Raw SQL : SELECT * FROM fan_gate WHERE settingID = AND fanGateflg=1
+
+Time : 17:03:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND fanGateflg=1' at line 1
+Raw SQL : SELECT * FROM fan_gate WHERE settingID = AND fanGateflg=1

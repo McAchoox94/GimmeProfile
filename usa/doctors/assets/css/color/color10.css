@@ -1,0 +1,224 @@
+/* Solid Color concepts */
+.square{ background-color:#de5a49;}
+blockquote.style1{ background-image: url(../../images/quotes/10.png);}
+.menu_right{ background-color:#de5a49;}
+.add_bg{ background-color:#de5a49;}
+.s-next:hover{background-color:#de5a49; }
+.s-prev:hover{ background-color:#de5a49; }
+
+.fact_icon{ color:#de5a49; }
+/* Push Menu */
+.cbp-spmenu { background: #de5a49; position: fixed; border-left:solid 5px #d84634}
+.cbp-spmenu h2 {text-shadow: 0px 2px 3px #d84634;}
+.menu_active:hover{ background-color:#de5a49;   cursor:pointer;}
+.menu_right{ background-color:#de5a49; }
+/* // Push Menu */
+.slide-text h2 span{ color:#de5a49; }
+body ::selection { background:#de5a49; color:white; }
+body ::-moz-selection { background:#de5a49; color:white; }
+
+#back_to_top:hover, .touch-device #back_to_top:active{ background-color:#de5a49; }
+
+/* Progress Bar */
+.progress_bars li span { background-color:#de5a49; }		
+/* // Progress Bar */
+
+/* Flex slider navigation */
+.flex-direction-nav a:hover  {  background-color:#de5a49; color:#fff;   }
+.flex-control-paging li a:hover { background: #de5a49; }
+.flex-control-paging li a.flex-active { background: #de5a49;  cursor: default; }
+/* // Flex slider navigation */
+
+
+/* Menu */
+.st-menu{background-color:#de5a49;}
+.menu:hover{background-color:rgba(222,90,73,1);}
+.st-menu h2 {text-shadow: 0px 2px 3px #d84634;}
+/* // Menu */
+
+/* Social Icon */
+.social-icon ul li:hover{color: #de5a49;}
+.tag span { color: #de5a49; }
+.social-icon ul li{ color: #de5a49; }
+.btn-style {border: 0px solid #de5a49;background-color: #de5a49;}
+/* // Social Icon */
+
+
+/* Recent Works */
+.post figcaption  { background-color:rgba(222,90,73,0.8); }
+.cs-style-3 figcaption {background-color:rgba(222,90,73,0.8);}
+/* // Recent Works */
+
+/* About Me */
+.about_content{  background-color:#de5a49;}
+/* Fun Facts */
+.icon-text i{color:#de5a49;}
+.red-line{  background-color:#de5a49;}
+/* // Fun Facts */
+
+/*accordion*/
+.accordion .accordion-toggle{background-color:#de5a49;}
+.accordion .accordion-toggle:hover{background-color:#de5a49;}
+.accordion .accordion-toggle.collapsed:hover{background-color:#de5a49;}
+.accordion.accordion-bordered .accordion-toggle{color:#de5a49;}
+.accordion.accordion-bordered .accordion-toggle.collapsed:hover{color:#de5a49;}
+/*tab*/
+.tabbable .nav-tabs>li>a:hover{color:#de5a49;}
+.tabbable.tabs-right .nav-tabs>li.active>a,.tabbable.tabs-right .nav-tabs>li.active>a:hover,.tabbable.tabs-right .nav-tabs>li.active>a:focus{border-right:4px solid #de5a49;}
+.tabbable .nav-tabs>li.active>a,.tabbable .nav-tabs>li.active>a:hover,.tabbable .nav-tabs>li.active>a:focus{border-top:4px solid #de5a49; color:#de5a49; }
+.tabbable.tabs-below .nav-tabs>li.active>a,.tabbable.tabs-below .nav-tabs>li.active>a:hover,.tabbable.tabs-below .nav-tabs>li.active>a:focus{border-bottom:4px solid #de5a49;}
+.tabbable.tabs-left .nav-tabs>li.active>a,.tabbable.tabs-left .nav-tabs>li.active>a:hover,.tabbable.tabs-left .nav-tabs>li.active>a:focus{border-left:4px solid #de5a49;}
+.tab-pane i{ color:#de5a49; }
+.panel-body i{ color:#de5a49;}
+/* // About Me */
+
+/* My skills */
+.skill_bg ul li div {background-color: #de5a49;}
+.progress span {background-color:#d84634;}			
+#myskills .progress-bar { background-color: #de5a49; }							
+.progress-bar-danger {background-color:#de5a49;}
+/* // My skills */
+
+/* Educations Timeline */
+.cbp_tmtimeline > li .cbp_tmlabel h3 {color:#de5a49;}					
+.cbp_tmtimeline > li .cbp_tmlabel h3 span{color:#de5a49;}
+.cbp_tmtimeline > li .cbp_tmicon {background:#de5a49; box-shadow: 0 0 0 8px #d84634;}
+.cbp_tmtimeline > li .cbp_tmtime span:first-child {color:#de5a49;}
+.cbp_tmtimeline:before {background:#d84634;}
+/* // Educations */
+
+/* Blog */
+.service_icon{ color:#de5a49;}
+.service-circle1{ background-color:#de5a49;}
+.service-circle1:hover i{color:#de5a49;}
+.service-text samp{color:#de5a49;}
+.ser-text{color:#de5a49;}
+/* // Service */
+
+/* Portfolio */
+#filters li {  background-color: #de5a49; }
+.project-overlay { background:rgba(222,90,73,0.8); }
+/* //  Portfolio  */
+
+/* Download Box */
+.download_box {background-color: #de5a49;}
+/* //  Download Box  */
+
+/* Testimonials */
+a {color: #de5a49;}
+.testimonial_circle{background-color:rgba(222,90,73,1);}
+/* //  Testimonials  */
+
+/* Contact */
+.contact-text2{color:#de5a49;}
+input[type="submit"] {background-color: #de5a49;}
+input[type="submit"]:hover {background-color: #de5a49;}
+.contact-text1 span{ color:#de5a49; }
+input[type="text"]:focus,  textarea:focus { 
+	border:0;
+    outline: 0;
+  	/* IE6-9 */
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(222,90,73,0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(222,90,73,0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(222,90,73,0.6); 
+}
+/* //  Contact  */
+
+/* Footer */
+.hi-icon:hover .foot_icon{color: #de5a49;}
+/* //  Footer  */
+
+.slide_bold_txt span {color:#de5a49;}
+.color_bg{ background-color:#de5a49; }
+.testimonial_circle1 {background-color: #de5a49;}
+.testimonial_content p span {color: #de5a49;}
+/* BLOG PAGE
+========================================================*/
+.continue a{  color:#de5a49!important;}
+.continue a:hover{  color:#de5a49!important;}
+.color1 {background-color: #de5a49;}
+.blog-icon{ color:#de5a49}
+.blog_tag span{color: #de5a49; }
+#blog_page.pagination a:hover,
+#blog_page.pagination .active a {background-color: #de5a49;}
+.quote_txt1 { color: #de5a49; }
+.singlecolor1 { background-color: #de5a49!important; }
+
+/* Archives */
+.archives-box li{  color:#de5a49!important;}
+.sub-entry a{color:#de5a49!important;}
+
+/* Tags */
+.tag a:hover{color:#de5a49!important; border:#de5a49 1px solid!important;}
+
+.category-box li:hover{color:#de5a49!important;}
+.category-box li a:hover{  color:#de5a49;}
+.color1{ background-color:#de5a49!important;}
+
+
+/* SHORTCODE
+========================================================*/
+/* Pricing */
+.pricingBloc:hover .cost { background-color:#de5a49; }
+.pricingBloc .cost{ background-color:#de5a49;}
+
+.pricingBloc .price-top {background-color:#d84634;}			
+.pricingBloc:hover .price-top { background-color:#d84634; }	
+/* //  Pricing  */
+span.dropcap2 { color: #de5a49; }
+span.dropcap4 { background-color: #de5a49; }
+.highlighted { background-color: #de5a49; }
+
+/*Buttons
+========================================================*/
+/* Button 4 */
+.btn-4 {box-shadow: 0 5px #d84634; background: #de5a49;}
+.btn-4d:hover {box-shadow: 0 7px #d84634;}
+.btn-4d:active {box-shadow: 0 0 #d84634;}
+
+/* Button 3 */
+.btn-3 {box-shadow: 0 5px #d84634; background: #de5a49;}
+.btn-3d:hover {box-shadow: 0 7px #d84634;}
+.btn-3d:active {box-shadow: 0 0 #d84634;}
+
+/* Button 2 */
+.btn-2 {box-shadow: 0 5px #d84634; background: #de5a49;}
+.btn-2d:hover {box-shadow: 0 7px #d84634;}
+.btn-2d:active {box-shadow: 0 0 #d84634;}
+
+/* Button 5 */
+.btn-5 { box-shadow: 0 5px #d84634; background: #de5a49;}
+.btn-5d:hover {box-shadow: 0 7px #d84634;}
+.btn-5d:active {box-shadow: 0 0 #d84634;}
+
+/* Progress Bar */
+.progress_bar li span { background-color:#de5a49;}		
+/* // Progress Bar */
+
+.flex_tweet a:link{ color: #de5a49; }
+.flex_tweet a:visited{ color: #de5a49; }
+.flex_tweet a:hover{ color: #de5a49; }
+.flex_tweet a:active{ color: #de5a49; }
+.tweet_text a:hover,.tweet_time a:hover, .tweet_link a:hover{ color:#d84634;}
+
+.arrow-link2 i { color: #de5a49; }	
+.arrow-link3 i { color: #de5a49; }
+.arrow-link i { color: #de5a49; } 
+
+
+@media (max-width: 1200px) and (min-width: 980px){
+.about_content { padding: 10px 10px 60px 14px; float: left; clear: both; width: 100%; margin-left: 7.5px; background-color:#de5a49; }
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+.about_content{padding:10px 10px 60px 14px; float:left; clear:both;width:100%;  background-color:#de5a49; margin-left: 7.5px;}
+}
+
+/* Landscape phone to portrait tablet*/
+@media (min-width: 480px) and (max-width: 768px) { 
+.about_content{padding:10px 10px 60px 14px; float:left; clear:both;width:100%;  background-color:#de5a49; margin-left: 7.5px;}
+}
+
+@media (max-width: 480px) {
+.about_content{padding:10px 10px 60px 14px; float:left; clear:both;width:100%;  background-color:#de5a49; margin-left: 7.5px;}
+}

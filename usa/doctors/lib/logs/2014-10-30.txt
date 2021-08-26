@@ -1,0 +1,73 @@
+Time : 11:18:03
+SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+Time : 11:16:54
+SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+Time : 10:32:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '3' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '3' where active=1
+
+Time : 10:32:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '3' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '3' where active=1
+
+Time : 10:32:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '3' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '3' where active=1
+
+Time : 10:31:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '3' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '3' where active=1
+
+Time : 10:30:58
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '3' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '3' where active=1
+
+Time : 10:29:31
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '' where active=1
+
+Time : 10:29:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '' where active=1
+
+Time : 10:28:38
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '2' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '2' where active=1
+
+Time : 10:28:15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '2' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '2' where active=1
+
+Time : 10:28:06
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '2' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '2' where active=1
+
+Time : 10:25:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '2' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '2' where active=1
+
+Time : 10:24:30
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '2' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '2' where active=1
+
+Time : 10:18:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '3' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '3' where active=1
+
+Time : 10:18:18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '' where active=1
+
+Time : 10:18:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '' where active=1
+
+Time : 10:15:26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '1' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '1' where active=1
+
+Time : 10:14:32
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '3' where active=1' at line 1
+Raw SQL : select * from portfolio uid = '3' where active=1

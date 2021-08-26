@@ -1,0 +1,207 @@
+/* Solid Color concepts */
+.square{ background-color:#ebda23;}
+blockquote.style1{ background-image: url(../../images/quotes/14.png);}
+.menu_right{ background-color:#ebda23;}
+.add_bg{ background-color:#ebda23;}
+.s-next:hover{background-color:#ebda23; }
+.s-prev:hover{ background-color:#ebda23; }
+
+.fact_icon{ color:#ebda23; }
+
+/* Push Menu */
+.cbp-spmenu { background: #ebda23; position: fixed; border-left:solid 5px #E1CF08}
+.cbp-spmenu h2 {text-shadow: 0px 2px 3px #E1CF08;}
+.menu_active:hover{ background-color:#ebda23;   cursor:pointer;}
+.menu_right{ background-color:#ebda23; }
+/* // Push Menu */
+.slide-text h2 span{ color:#ebda23; }
+body ::selection { background:#ebda23; color:white; }
+body ::-moz-selection { background:#ebda23; color:white; }
+
+#back_to_top:hover, .touch-device #back_to_top:active{ background-color:#ebda23; }
+
+/* Progress Bar */
+.progress_bars li span { background-color:#ebda23; }		
+/* // Progress Bar */
+
+/* Flex slider navigation */
+.flex-direction-nav a:hover  {  background-color:#ebda23; color:#fff;   }
+.flex-control-paging li a:hover { background: #ebda23; }
+.flex-control-paging li a.flex-active { background: #ebda23;  cursor: default; }
+/* // Flex slider navigation */
+
+
+/* Menu */
+.st-menu{background-color:#ebda23;}
+.menu:hover{background-color:rgba(235,218,35,1);}
+.st-menu h2 {text-shadow: 0px 2px 3px #E1CF08;}
+/* // Menu */
+
+/* Social Icon */
+.social-icon ul li:hover{color: #ebda23;}
+.tag span { color: #ebda23; }
+.social-icon ul li{ color: #ebda23; }
+.btn-style {border: 0px solid #ebda23;background-color: #ebda23;}
+/* // Social Icon */
+
+
+/* Recent Works */
+.post figcaption  { background-color:rgba(235,218,35,0.8); }
+.cs-style-3 figcaption {background-color:rgba(235,218,35,0.8);}
+/* // Recent Works */
+
+/* About Me */
+.about_content{  background-color:#ebda23;}
+/* Fun Facts */
+.icon-text i{color:#ebda23;}
+.red-line{  background-color:#ebda23;}
+/* // Fun Facts */
+
+/*accordion*/
+.accordion .accordion-toggle{background-color:#ebda23;}
+.accordion .accordion-toggle:hover{background-color:#ebda23;}
+.accordion .accordion-toggle.collapsed:hover{background-color:#ebda23;}
+.accordion.accordion-bordered .accordion-toggle{color:#ebda23;}
+.accordion.accordion-bordered .accordion-toggle.collapsed:hover{color:#ebda23;}
+/*tab*/
+.tabbable .nav-tabs>li>a:hover{color:#ebda23;}
+.tabbable.tabs-right .nav-tabs>li.active>a,.tabbable.tabs-right .nav-tabs>li.active>a:hover,.tabbable.tabs-right .nav-tabs>li.active>a:focus{border-right:4px solid #ebda23;}
+.tabbable .nav-tabs>li.active>a,.tabbable .nav-tabs>li.active>a:hover,.tabbable .nav-tabs>li.active>a:focus{border-top:4px solid #ebda23; color:#ebda23; }
+.tabbable.tabs-below .nav-tabs>li.active>a,.tabbable.tabs-below .nav-tabs>li.active>a:hover,.tabbable.tabs-below .nav-tabs>li.active>a:focus{border-bottom:4px solid #ebda23;}
+.tabbable.tabs-left .nav-tabs>li.active>a,.tabbable.tabs-left .nav-tabs>li.active>a:hover,.tabbable.tabs-left .nav-tabs>li.active>a:focus{border-left:4px solid #ebda23;}
+.tab-pane i{ color:#ebda23; }
+.panel-body i{ color:#ebda23;}
+/* // About Me */
+
+/* My skills */
+.skill_bg ul li div {background-color: #ebda23;}
+.progress span {background-color:#E1CF08;}			
+#myskills .progress-bar { background-color: #ebda23; }							
+.progress-bar-danger {background-color:#ebda23;}
+/* // My skills */
+
+/* Educations Timeline */
+.cbp_tmtimeline > li .cbp_tmlabel h3 {color:#ebda23;}					
+.cbp_tmtimeline > li .cbp_tmlabel h3 span{color:#ebda23;}
+.cbp_tmtimeline > li .cbp_tmicon {background:#ebda23; box-shadow: 0 0 0 8px #E1CF08;}
+.cbp_tmtimeline > li .cbp_tmtime span:first-child {color:#ebda23;}
+.cbp_tmtimeline:before {background:#E1CF08;}
+/* // Educations */
+
+/* Blog */
+.service_icon{ color:#ebda23;}
+.service-circle1{ background-color:#ebda23;}
+.service-circle1:hover i{color:#ebda23;}
+.service-text samp{color:#ebda23;}
+.ser-text{color:#ebda23;}
+/* // Service */
+
+/* Portfolio */
+#filters li {  background-color: #ebda23; }
+.project-overlay { background:rgba(235,218,35,0.8); }
+/* //  Portfolio  */
+
+/* Download Box */
+.download_box {background-color: #ebda23;}
+/* //  Download Box  */
+
+/* Testimonials */
+a {color: #ebda23;}
+.testimonial_circle{background-color:rgba(235,218,35,1);}
+/* //  Testimonials  */
+
+/* Contact */
+.contact-text2{color:#ebda23;}
+input[type="submit"] {background-color: #ebda23;}
+input[type="submit"]:hover {background-color: #ebda23;}
+.contact-text1 span{ color:#ebda23; }
+input[type="text"]:focus,  textarea:focus { 
+	border:0;
+    outline: 0;
+  	/* IE6-9 */
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(235,218,35,0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(235,218,35,0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(235,218,35,0.6); 
+}
+/* //  Contact  */
+
+/* Footer */
+.hi-icon:hover .foot_icon{color: #ebda23;}
+/* //  Footer  */
+
+.slide_bold_txt span {color:#ebda23;}
+.color_bg{ background-color:#ebda23; }
+.testimonial_circle1 {background-color: #ebda23;}
+.testimonial_content p span {color: #ebda23;}
+/* BLOG PAGE
+========================================================*/
+.continue a{  color:#ebda23!important;}
+.continue a:hover{  color:#ebda23!important;}
+.color1 {background-color: #ebda23;}
+.blog-icon{ color:#ebda23}
+.blog_tag span{color: #ebda23; }
+#blog_page.pagination a:hover,
+#blog_page.pagination .active a {background-color: #ebda23;}
+.quote_txt1 { color: #ebda23; }
+.singlecolor1 { background-color: #ebda23!important; }
+
+/* Archives */
+.archives-box li{  color:#ebda23!important;}
+.sub-entry a{color:#ebda23!important;}
+
+/* Tags */
+.tag a:hover{color:#ebda23!important; border:#ebda23 1px solid!important;}
+
+.category-box li:hover{color:#ebda23!important;}
+.category-box li a:hover{  color:#ebda23;}
+.color1{ background-color:#ebda23!important;}
+
+
+/* SHORTCODE
+========================================================*/
+/* Pricing */
+.pricingBloc:hover .cost { background-color:#ebda23; }
+.pricingBloc .cost{ background-color:#ebda23;}
+
+.pricingBloc .price-top {background-color:#E1CF08;}			
+.pricingBloc:hover .price-top { background-color:#E1CF08; }	
+/* //  Pricing  */
+span.dropcap2 { color: #ebda23; }
+span.dropcap4 { background-color: #ebda23; }
+.highlighted { background-color: #ebda23; }
+
+/*Buttons
+========================================================*/
+/* Button 4 */
+.btn-4 {box-shadow: 0 5px #E1CF08; background: #ebda23;}
+.btn-4d:hover {box-shadow: 0 7px #E1CF08;}
+.btn-4d:active {box-shadow: 0 0 #E1CF08;}
+
+/* Button 3 */
+.btn-3 {box-shadow: 0 5px #E1CF08; background: #ebda23;}
+.btn-3d:hover {box-shadow: 0 7px #E1CF08;}
+.btn-3d:active {box-shadow: 0 0 #E1CF08;}
+
+/* Button 2 */
+.btn-2 {box-shadow: 0 5px #E1CF08; background: #ebda23;}
+.btn-2d:hover {box-shadow: 0 7px #E1CF08;}
+.btn-2d:active {box-shadow: 0 0 #E1CF08;}
+
+/* Button 5 */
+.btn-5 { box-shadow: 0 5px #E1CF08; background: #ebda23;}
+.btn-5d:hover {box-shadow: 0 7px #E1CF08;}
+.btn-5d:active {box-shadow: 0 0 #E1CF08;}
+
+/* Progress Bar */
+.progress_bar li span { background-color:#ebda23;}		
+/* // Progress Bar */
+
+.flex_tweet a:link{ color: #ebda23; }
+.flex_tweet a:visited{ color: #ebda23; }
+.flex_tweet a:hover{ color: #ebda23; }
+.flex_tweet a:active{ color: #ebda23; }
+.tweet_text a:hover,.tweet_time a:hover, .tweet_link a:hover{ color:#E1CF08;}
+
+.arrow-link2 i { color: #ebda23; }	
+.arrow-link3 i { color: #ebda23; }
+.arrow-link i { color: #ebda23; } 

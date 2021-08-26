@@ -1,0 +1,63 @@
+Time : 13:37:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 13:18:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 08:34:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 08:33:37
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 08:33:37
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 08:33:37
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 08:33:37
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 08:33:37
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 08:33:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 08:33:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 08:33:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 08:33:35
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 08:33:35
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 08:33:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 08:33:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+Raw SQL : select * from profile where id =  LIMIT 1
+
+Time : 07:17:55
+SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+

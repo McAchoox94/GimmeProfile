@@ -1,0 +1,172 @@
+/*BANNER STYLE 2
+================================================================*/
+.cbp-spmenu h2 {
+	/*font-family: 'Cookie', cursive;
+	font-family: 'Montez', cursive;
+	font-family: 'Grand Hotel', cursive;*/
+	font-family: 'Clicker Script', cursive;
+	/*font-family: 'Sacramento', cursive;*/
+	
+}	
+.home_bg2{
+	background: url(../images/slider/parallax_3.jpg) 50% 0 no-repeat fixed;
+	background-size: cover;
+	background-position: 100% top;
+	overflow: hidden;
+	height: 900px;
+	margin-top: -110px;
+}
+.ban_pat2{
+	background: url(../images/banner_patterns/4.png) 100% 0 repeat fixed;
+	background-position: 100%;
+	height: 900px;
+	padding-top:50px;
+}
+.home_bg2_content{ margin-top: 290px; margin-bottom:67px; }
+.content2_text1{
+/*	font-family: 'Open Sans', sans-serif;*/
+	color:#fff;
+	text-transform:uppercase;
+	font-size:25px;
+	font-weight:100;
+	text-align:center;
+	letter-spacing:0.1em;
+	margin-bottom:28px;
+}
+.content2_text2{
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+	font-size:120px;
+	font-weight:700;
+	line-height:120px;
+	letter-spacing:-10px;
+}
+/* Homepage Arrow animation */
+/*.arrow-link2 i {
+	padding: 18px;
+	font-size: 50px;
+	text-align:center;
+	background: transparent;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+.arrow-link2{
+	text-align:center;
+	-webkit-animation-name: hop;
+	-webkit-animation-duration:.5s;
+	 -webkit-animation-direction:alternate;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:0s;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-name: hop;
+	-moz-animation-duration:.5s;
+	 -moz-animation-direction:alternate;
+	-moz-animation-timing-function:linear;
+	-moz-animation-delay:0s;
+	-moz-animation-iteration-count:infinite;
+	position:relative;
+	top:90px;
+	right:0px;
+}*/
+
+@-webkit-keyframes hop {
+       from{ -webkit-transform: translate(0px,0px); }
+         to { -webkit-transform: translate(0px,-10px); }  
+      }
+
+@-moz-keyframes hop {
+       from{ -moz-transform: translate(0px,0px); }
+         to { -moz-transform: translate(0px,-10px); }  
+      }
+/* // Homepage Arrow animation */
+
+
+ 
+
+
+/* Portrait tablet to landscape and desktop*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/*.container{ background-color:#00FFFF;}*/
+
+	
+	/*BANNER STYLE 2*/
+	.home_bg2_content{ margin-top: 300px; }
+	.content2_text1{ font-size:25px; }
+	.content2_text2{ font-size:120px; line-height:120px; letter-spacing:-10px; }
+	
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	/*.container{ background-color:#FFFF00}*/
+
+	
+	/*BANNER STYLE 2*/
+	.home_bg2_content{ margin-top: 290px; }
+	.content2_text1{ font-size:25px; }
+	.content2_text2{ font-size:100px; line-height:120px; letter-spacing:-10px; }
+	
+	
+}
+
+/* Landscape phone to portrait tablet*/
+@media (max-width: 767px) { 
+	/*.container{ background-color: #00FF99}*/
+	
+	/*BANNER STYLE 2*/
+	.home_bg2 { height:730px; }
+	.home_bg2_content{ margin-top:290px; }
+	.content2_text1{ font-size:18px; }
+	.content2_text2{ font-size:70px; line-height:100px; letter-spacing:-5px; }
+	.ban_pat2{
+	background: url(../images/banner_patterns/2.png) 100% 0 repeat fixed;
+	background-position: 100%;
+	height: 680px;
+	padding-top:50px;
+}
+
+	
+	
+
+	
+}	
+
+@media (max-width: 400px) {
+	/*.container{ background-color: #FFCCFF}*/
+	
+
+
+	
+	/*BANNER STYLE 2*/
+	.home_bg2 { height:500px; }
+	.home_bg2_content{ margin-top:250px; }
+	.content2_text1{ font-size:16px; }
+	.content2_text2{ font-size:60px; line-height:80px; letter-spacing:-5px; }
+	.home_bg2{height: 680px;}
+	.ban_pat2{
+	background: url(../images/banner_patterns/2.png) 100% 0 repeat fixed;
+	background-position: 100%;
+	height: 680px;
+	padding-top:50px;
+}
+	
+}	
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+::i-block-chrome,.content2_text1 span{ font-weight:300;}
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2.0) {
+.home_bg2{ background: url(../images/slider/parallax_3.jpg); }
+.ban_pat2{ background: url(../images/banner_patterns/4.png); }
+}
+
+
+ 

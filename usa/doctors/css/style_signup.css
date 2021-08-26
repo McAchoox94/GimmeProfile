@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e9eaea;
+    font-family: roboto;
+    user-select: none;
+}
+
+.container {
+    width: 450px;
+    margin: 30px auto;
+}
+
+.signup,
+.login {
+    width: 50%;
+    background: #fff;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.signup-form,
+.login-form {
+    background: #fff;
+    padding: 40px;
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input:focus {
+    border-bottom: 2px solid red;
+}
+
+span a {
+    text-decoration: none;
+    color: #000;
+}
+
+.role {
+    margin-top: 30px;
+}
+
+.rdn {
+    border: 2px solid green;
+}
+
+i.fa-envelope {
+    color: gray;
+}
+
+.option-container {
+    margin: 5px;
+}
+
+i.ab {
+    font-size: 80px
+}
+
+i.ab:hover {
+    color: orange;
+}

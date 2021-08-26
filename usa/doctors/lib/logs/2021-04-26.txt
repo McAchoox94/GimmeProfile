@@ -1,0 +1,5 @@
+Time : 06:49:26
+SQLSTATE[HY000] [1049] Unknown database 'doctors_usa'
+
+Time : 06:47:27
+SQLSTATE[HY000] [1049] Unknown database 'doctors_usa'

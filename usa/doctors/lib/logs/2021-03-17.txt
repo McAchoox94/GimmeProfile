@@ -1,0 +1,7 @@
+Time : 17:37:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's%20BBQ'' at line 1
+Raw SQL : select * from profile where username = 'Big%20T's%20BBQ'
+
+Time : 17:36:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's%20BBQ'' at line 1
+Raw SQL : select * from profile where username = 'Big%20T's%20BBQ'

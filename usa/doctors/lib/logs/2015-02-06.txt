@@ -1,0 +1,11 @@
+Time : 09:18:15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com' at line 1
+Raw SQL : UPDATE profile SET password = 'c558f957a67d37e7999a293839657519' WHERE email =sheensoltech@gmail.com
+
+Time : 09:13:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com' at line 1
+Raw SQL : UPDATE profile SET password = '34d123a6d77eb00ce0df26f5d16f5b01' WHERE email =sheensoltech@gmail.com
+
+Time : 09:12:19
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com' at line 1
+Raw SQL : UPDATE profile SET password = '311a7dae15406eb6c5a0199c90ee57f9' WHERE email =sheensoltech@gmail.com

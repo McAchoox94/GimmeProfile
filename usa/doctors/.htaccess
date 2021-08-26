@@ -1,0 +1,13 @@
+Options +FollowSymLinks -MultiViews
+# Turn mod_rewrite on
+RewriteEngine On
+
+# RewriteBase /codeCountry/proff/ like this 
+RewriteBase /usa/doctors
+
+RewriteCond %{REQUEST_FILENAME}.php -f  
+RewriteRule ^([^\.]+)$ $1.php [NC]
+RewriteCond %{REQUEST_FILENAME} >""
+RewriteRule ^([^\.]+)$ profile.php?user=$1 [L] 
+
+#RewriteRule ^([^/]*)$ profile.php?user=$1 [L]

@@ -1,0 +1,168 @@
+jQuery(document).ready(function(){ 
+
+//      $('#portfolio').removeClass("hidden").viewportChecker({
+//        classToAdd: 'visible animated fadeIn',offset: 100
+//    });     
+
+
+     $('#filters').on('click', 'button', function() {
+        var filterValue = $(this).attr('data-filter');
+        $container.isotope({
+            filter: filterValue
+        });
+    });
+    // change is-checked class on buttons
+    $('#filters').each(function(i, buttonGroup) {
+        var $buttonGroup = $(buttonGroup);
+        $buttonGroup.on('click', 'button', function() {
+            $buttonGroup.find('.active').removeClass('active');
+            $(this).addClass('active');
+        });
+    });
+
+
+	
+	/* ---------------------------------------------------------------------- */
+	/*	Custom Functions
+	/* ---------------------------------------------------------------------- */
+	
+	// Needed variables
+	var $logo 	= $('#logo');
+		
+	// Show logo 
+	$('.tab-resume,.tab-portfolio,.tab-contact').click(function() {
+	  $logo.fadeIn('slow');
+	});
+	// Hide logo
+	$('.tab-profile').click(function() {
+	  $logo.fadeOut('slow');
+	});	
+	
+	/* ---------------------------------------------------------------------- */
+	/*	Menu
+	/* ---------------------------------------------------------------------- */
+	
+	// Needed variables
+	//$('#content').easytabs();
+	var $content 		= $("#content");
+	
+	// Run easytabs
+  	$content.easytabs({
+	  animate			: true,
+	  updateHash		: false,
+	  transitionIn		:'slideDown',
+	  transitionOut		:'slideUp',
+	  animationSpeed	:600,
+	  tabs				:"> .menu > ul > li",
+	  tabActiveClass	:'active',
+	});
+	
+	// Hover menu effect
+	$content.find('.tabs li a').hover(
+		function() {
+			$(this).stop().animate({ marginTop: "-7px" }, 200);
+		},function(){
+			$(this).stop().animate({ marginTop: "0px" }, 300);
+		}
+	);
+	/* ---------------------------------------------------------------------- */
+	/*	Portfolio
+	/* ---------------------------------------------------------------------- */ 
+	
+	// Needed variables
+	var $container	 	= $('#portfolio-list');
+	var $filter 		= $('#portfolio-filter');
+		
+	// Run Isotope  
+	$container.isotope({
+		filter				: '*',
+		layoutMode   		: 'masonry',
+		animationOptions	: {
+		duration			: 750,
+		easing				: 'linear'
+	   }
+	});	
+	
+	// Isotope Filter 
+	$filter.find('a').click(function(){
+	  var selector = $(this).attr('data-filter');
+		$container.isotope({ 
+		filter				: selector,
+		animationOptions	: {
+		duration			: 750,
+		easing				: 'linear',
+		queue				: false,
+	   }
+	  });
+	  return false;
+	});	
+	
+	// Portfolio image animation 
+//	$container.find('img').adipoli({
+//		'startEffect' 	: 'overlay',
+//		'hoverEffect' 	: 'sliceDown',
+//		'imageOpacity' 	: 0.6,
+//		'animSpeed' 	: 100,
+//	});
+//	
+	// Copy categories to item classes
+	$filter.find('a').click(function() {
+		var currentOption = $(this).attr('data-filter');
+		$filter.find('a').removeClass('current');
+		$(this).addClass('current');
+	});	
+	
+	/* ---------------------------------------------------------------------- */
+	/*	Fancybox 
+	/* ---------------------------------------------------------------------- */
+	$container.find('.folio').fancybox({
+		'transitionIn'		:	'elastic',
+		'transitionOut'		:	'elastic',
+		'speedIn'			:	200, 
+		'speedOut'			:	200, 
+		'overlayOpacity'	:   0.6
+	});
+	
+	/* ---------------------------------------------------------------------- */
+	/*	Contact Form
+	/* ---------------------------------------------------------------------- */
+	
+	// Needed variables
+//	var $contactform 	= $('#contactform');
+//		//$success		= 'Your message has been sent. Thank you!';
+//		
+//	$contactform.submit(function(){
+//		$.ajax({
+//		   type: "POST",
+//		   url: "contact.php",
+//		   data: $(this).serialize(),
+//		   success: function(msg)
+//		   {
+//			   var arr = msg.split('#');
+//				if(arr[0] == 'SEND'){
+//					response = '<div class="success">'+ arr[1] +'</div>';
+//				}
+//				else{
+//					response = '<div class="error">'+ msg +'</div>';
+//				}
+//				// Hide any previous response text
+//				$(".error,.success").remove();
+//				// Show response message
+//				$contactform.prepend(response);
+//			}
+//		 });
+//		return false;
+//	});	
+//	/* ---------------------------------------------------------------------- */
+	/*	Google Maps
+	/* ---------------------------------------------------------------------- */
+	
+	
+    jQuery('.skillbar').each(function(){
+    jQuery(this).find('.skillbar-bar').animate({
+        width:jQuery(this).attr('data-percent')
+    },6000);
+    });
+	
+
+});	
